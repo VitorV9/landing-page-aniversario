@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/VitorV9/landing-page-aniversario/issues"
   },
-  "homepage": "https://github.com/VitorV9/landing-page-aniversario#readme"
+  "homepage": "https://github.com/VitorV9/landing-page-aniversario#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
 }
