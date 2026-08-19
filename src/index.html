@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/githubicon.png" alt="Icone do Git">
+            <p class="hero__text">
+                Meu aniversário chega em: <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Está é uma landing page básica informando a data do meu aniversário</b>
+                    </li>
+                <a href="#" class="button button--primary">
+                    Acesse meu GITHUB
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--frontend">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Novos tempos</h2>
+                <p class="event__details__description">
+                    Mais um ciclo de vida compilado com sucesso e sem falhas de segmentação! Chegou a hora de dar um pause nos scripts, fechar os terminais Linux e comemorar. Vai ter muita resenha, comida boa e, quem sabe, um espaço para a gente discutir as últimas jogadas do competitivo ou as novidades dos servidores.
+                </p>
+            </div>
+            <img class="event__image"src="" alt="Foto pessoal">
+        </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Organização da festa</h2>
+                <p class="event__details__description">
+                    A confraternização está com a infraestrutura sendo preparada para garantir latência zero na entrega das bebidas e petiscos. Confirme sua presença para receber as coordenadas exatas e o IP do local. Conto com vocês!
+                </p>
+            </div>
+            <img class="event__image"src="./images/frontend.png" alt="Festa">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
