@@ -1,0 +1,21 @@
+{
+  "name": "landing-page-aniversario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorV9/landing-page-aniversario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VitorV9/landing-page-aniversario/issues"
+  },
+  "homepage": "https://github.com/VitorV9/landing-page-aniversario#readme"
+}
